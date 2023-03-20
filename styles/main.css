@@ -1,0 +1,44 @@
+/*
+CSS for the CS142 project #5 main page
+
+Since CSS uses a global name space for classes we should use class names starting with
+cs142-main- here.
+*/
+@import url('https://fonts.googleapis.com/css2?family=Cookie&family=Itim&display=swap');
+
+*{
+  font-family: 'Itim', cursive;
+}
+
+.cs142-main-topbar-buffer {
+  margin-top: 100px;
+}
+.user-list {
+  margin: 15px;
+  padding: 30px;
+  height: calc(100vh - 130px);
+  margin-right: 0;
+  /* overflow: scroll; */
+}
+.user-photos {
+  margin: 15px;
+  margin-left: 0;
+  padding: 30px;
+  height: calc(100vh - 130px);
+}
+/* .cs142-main-grid-item {
+  height: calc(100vh - 130px);
+  padding: 30px;
+} */
+
+body{
+  background-color: #F7C8E0;
+  width: 100%; height: 100vh; overflow: hidden;
+}
+
+h1, h2, h5 {
+  font-family: 'Cookie', cursive;
+}
+
+
+
